@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/picture"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/big_space">
+    </com.facebook.login.widget.ProfilePictureView>
+
+    <TextView
+        android:id="@+id/fb_idFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID : "
+        android:textSize="@dimen/medium_space"
+        android:layout_margin="@dimen/byte_space"
+        android:padding="@dimen/byte_space"/>
+
+    <TextView
+        android:id="@+id/fb_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:textSize="@dimen/medium_space"
+        android:layout_margin="@dimen/byte_space"
+        android:padding="@dimen/byte_space"/>
+
+    <TextView
+        android:id="@+id/fb_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : "
+        android:textSize="@dimen/medium_space"
+        android:layout_margin="@dimen/byte_space"
+        android:padding="@dimen/byte_space"/>
+
+    <TextView
+        android:id="@+id/fb_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender : "
+        android:textSize="@dimen/medium_space"
+        android:layout_margin="@dimen/byte_space"
+        android:padding="@dimen/byte_space"/>
+
+    <TextView
+        android:id="@+id/fb_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birthday : "
+        android:textSize="@dimen/medium_space"
+        android:layout_margin="@dimen/byte_space"
+        android:padding="@dimen/byte_space"/>
+
+    <TextView
+        android:id="@+id/fb_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location : "
+        android:textSize="@dimen/medium_space"
+        android:layout_margin="@dimen/byte_space"
+        android:padding="@dimen/byte_space"/>
+
+</LinearLayout>
